@@ -1,0 +1,8 @@
+{
+  "name": "palavras",
+  "version": "1.0.0",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.6.1"
+  }
+}
