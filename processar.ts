@@ -1,8 +1,5 @@
 import fs from 'fs'
 
-const random = (min: number, max: number): number =>
-  Math.floor(Math.random() * (max - min + 1)) + min
-
 const raw = fs.readFileSync('./palavras.txt', 'utf8').split('\n')
 
 const palavras: { [key: string]: { orig: string } } = {}
